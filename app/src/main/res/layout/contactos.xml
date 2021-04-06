@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recurso_5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Contactos"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#182e4f"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:visibility="visible" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/tel"
+            android:layout_width="219dp"
+            android:layout_height="109dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/llamada_telefonica" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="248dp"
+            android:layout_height="120dp"
+            android:gravity="center_vertical"
+            android:text=" (593) 07-2613865" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/map"
+            android:layout_width="219dp"
+            android:layout_height="109dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/mapa__4_" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="248dp"
+            android:layout_height="120dp"
+            android:gravity="center_vertical"
+            android:text="Calle Garanada y AV. Turunuma" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/carta"
+            android:layout_width="219dp"
+            android:layout_height="109dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/envelope" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="255dp"
+            android:layout_height="120dp"
+            android:gravity="center_vertical"
+            android:text="secretaria@tecnologicoloja.edu.ec" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="60dp"
+                android:layout_height="58dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="60dp"
+                android:layout_height="58dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/youtube" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="60dp"
+                android:layout_height="58dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/instagram" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="60dp"
+                android:layout_height="58dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/twitter__1_" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="60dp"
+                android:layout_height="58dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/github" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
+
+
