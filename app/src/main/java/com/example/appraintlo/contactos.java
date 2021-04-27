@@ -31,6 +31,7 @@ public class contactos extends AppCompatActivity{
 
             }
         });
+        //Metodo para poner un link a uma imagebutton para q me redirecciones a la pagina de facebook
         face = findViewById(R.id.imageButton6);
         face.setOnClickListener(new  View.OnClickListener() {
             @Override
@@ -41,6 +42,7 @@ public class contactos extends AppCompatActivity{
 
             }
         });
+        //Metodo para poner un link a uma imagebutton para q me redirecciones a la pagina de instagram
         inst = findViewById(R.id.imageButton8);
         inst.setOnClickListener(new  View.OnClickListener() {
             @Override
@@ -51,6 +53,7 @@ public class contactos extends AppCompatActivity{
 
             }
         });
+        //Metodo para poner un link a uma imagebutton para q me redirecciones a la pagina de twter
         twt = findViewById(R.id.imageButton9);
         twt.setOnClickListener(new  View.OnClickListener() {
             @Override
@@ -61,6 +64,7 @@ public class contactos extends AppCompatActivity{
 
             }
         });
+        //Metodo para poner un link a uma imagebutton para q me redirecciones a la pagina de git
         git = findViewById(R.id.imageButton10);
         git.setOnClickListener(new  View.OnClickListener() {
             @Override
@@ -71,6 +75,7 @@ public class contactos extends AppCompatActivity{
 
             }
         });
+        //Metodo para poner un link a uma imagebutton para q me redirecciones a la pagina de youtube
         you = findViewById(R.id.imageButton7);
         you.setOnClickListener(new  View.OnClickListener() {
             @Override

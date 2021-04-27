@@ -17,6 +17,7 @@ public class sobre extends AppCompatActivity {
         setContentView(R.layout.sobre);
         link = findViewById(R.id.istl);
         link.setOnClickListener(new  View.OnClickListener() {
+            //metodo para poder utilizar links q nos redireccione a la una pagina en los imagebutoon
             @Override
             public void onClick(View v) {
                 Uri link = Uri.parse(url);

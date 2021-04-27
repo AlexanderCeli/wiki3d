@@ -42,7 +42,7 @@ String url = "https://www.google.com/maps/@-4.0175171,-79.2125396,3a,75y,180h,80
         });
     }
 
-    //On click de los botones
+    //metodo para poder abrir otra aplicaion desde un botton
     public void wikitude(View view) {
         String nombre_paquete = "com.wikitude.wikitudestudioandroidapptemplate";
         Intent i = new Intent();
@@ -51,6 +51,7 @@ String url = "https://www.google.com/maps/@-4.0175171,-79.2125396,3a,75y,180h,80
         i.addCategory(Intent.CATEGORY_LAUNCHER);
         startActivity(i);
     }
+    //On click de los botones
     public void ayuda(View view) {
         Intent intent = new Intent(this, Ayuda.class);
         startActivity(intent);
@@ -67,12 +68,14 @@ String url = "https://www.google.com/maps/@-4.0175171,-79.2125396,3a,75y,180h,80
         Intent intent = new Intent(this, desarrollo.class);
         startActivity(intent);
     }
+
+
     public void flipperImages (int image){
         ImageView imageView = new ImageView(this);
         imageView.setBackgroundResource(image);
 
-        carrusel.addView(imageView);
-        carrusel.setFlipInterval(500);
-        carrusel.setAutoStart(true);
+        carrusel.addView(imageView); // cargamos las imagenes
+        carrusel.setFlipInterval(500);// intervalo de cada imagen q
+        carrusel.setAutoStart(true); // para q cuando aparesca cargue
     }
  }

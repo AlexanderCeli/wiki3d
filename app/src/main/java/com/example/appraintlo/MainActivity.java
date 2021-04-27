@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         inii.setOnClickListener(this);
 
     }
+    // se creo el metodo para el boton iniciar cambie de pantalla
     public void onClick(View view) {
         Intent intent = new Intent(this, ini.class);
         startActivity(intent);
